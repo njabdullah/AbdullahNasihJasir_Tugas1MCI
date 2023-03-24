@@ -13,12 +13,12 @@ function dim(arr)
 function argwhere(arr)
 {
   let indeks = [];
-  let size = dim(arr);
-  for (let i = 0; i < size[0]; i++)
+  let scope = dim(arr);
+  for (let i = 0; i < scope[0]; i++)
   {
-    for (let j = 0; j < size[1]; j++)
+    for (let j = 0; j < scope[1]; j++)
     {
-      for (let k = 0; k < size[2]; k++)
+      for (let k = 0; k < scope[2]; k++)
       {
         if (arr[i][j][k] !== 0)
         {
